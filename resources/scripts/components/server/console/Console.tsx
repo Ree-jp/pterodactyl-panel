@@ -206,8 +206,8 @@ export default () => {
                     <input
                         className={classNames('peer', styles.command_input)}
                         type={'text'}
-                        placeholder={'Type a command...'}
-                        aria-label={'Console command input.'}
+                        placeholder={'コマンドを入力してください...'}
+                        aria-label={'コンソールコマンド入力'}
                         disabled={!instance || !connected}
                         onKeyDown={handleCommandKeyDown}
                         autoCorrect={'off'}

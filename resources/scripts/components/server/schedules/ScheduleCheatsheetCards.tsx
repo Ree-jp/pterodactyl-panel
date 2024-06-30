@@ -9,23 +9,23 @@ export default () => {
                     <h2 css={tw`py-4 px-6 font-bold`}>Examples</h2>
                     <div css={tw`flex py-4 px-6 bg-neutral-500`}>
                         <div css={tw`w-1/2`}>*/5 * * * *</div>
-                        <div css={tw`w-1/2`}>every 5 minutes</div>
+                        <div css={tw`w-1/2`}>5分毎</div>
                     </div>
                     <div css={tw`flex py-4 px-6`}>
                         <div css={tw`w-1/2`}>0 */1 * * *</div>
-                        <div css={tw`w-1/2`}>every hour</div>
+                        <div css={tw`w-1/2`}>1時間毎</div>
                     </div>
                     <div css={tw`flex py-4 px-6 bg-neutral-500`}>
                         <div css={tw`w-1/2`}>0 8-12 * * *</div>
-                        <div css={tw`w-1/2`}>hour range</div>
+                        <div css={tw`w-1/2`}>時間範囲</div>
                     </div>
                     <div css={tw`flex py-4 px-6`}>
                         <div css={tw`w-1/2`}>0 0 * * *</div>
-                        <div css={tw`w-1/2`}>once a day</div>
+                        <div css={tw`w-1/2`}>1日毎</div>
                     </div>
                     <div css={tw`flex py-4 px-6 bg-neutral-500`}>
                         <div css={tw`w-1/2`}>0 0 * * MON</div>
-                        <div css={tw`w-1/2`}>every Monday</div>
+                        <div css={tw`w-1/2`}>毎週月曜</div>
                     </div>
                 </div>
             </div>
@@ -34,19 +34,19 @@ export default () => {
                 <div css={tw`flex flex-col`}>
                     <div css={tw`flex py-4 px-6 bg-neutral-500`}>
                         <div css={tw`w-1/2`}>*</div>
-                        <div css={tw`w-1/2`}>any value</div>
+                        <div css={tw`w-1/2`}>常に</div>
                     </div>
                     <div css={tw`flex py-4 px-6`}>
                         <div css={tw`w-1/2`}>,</div>
-                        <div css={tw`w-1/2`}>value list separator</div>
+                        <div css={tw`w-1/2`}>複数の条件</div>
                     </div>
                     <div css={tw`flex py-4 px-6 bg-neutral-500`}>
                         <div css={tw`w-1/2`}>-</div>
-                        <div css={tw`w-1/2`}>range values</div>
+                        <div css={tw`w-1/2`}>範囲指定</div>
                     </div>
                     <div css={tw`flex py-4 px-6`}>
                         <div css={tw`w-1/2`}>/</div>
-                        <div css={tw`w-1/2`}>step values</div>
+                        <div css={tw`w-1/2`}>間隔指定</div>
                     </div>
                 </div>
             </div>
